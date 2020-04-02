@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-innova",
-  "description": "A Innova blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api",
+  "description": "A MoneyByte blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.6.0",
-  "repository": "git://github.com/innovacoin/insight-api-innova.git",
+  "repository": "git://github.com/MoneyByte/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -35,21 +35,25 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "CircuitBreaker",
+      "email": "circuitbreaker88@protonmail.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/innovacoin/insight-api-innova/issues"
+    "url": "https://github.com/MoneyByte/insight-api/issues"
   },
-  "homepage": "https://github.com/innovacoin/insight-api-innova",
+  "homepage": "https://github.com/MoneyByte/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "innova api",
+    "moneybyte api",
     "blockchain api",
     "json",
-    "bitcore-innova"
+    "bitcore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-innova": "innovacoin/bitcore-lib-innova",
-    "bitcore-message-innova": "innovacoin/bitcore-message-innova",
+    "bitcore-lib": "MoneyByte/bitcore-lib",
+    "bitcore-message": "MoneyByte/bitcore-message",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",

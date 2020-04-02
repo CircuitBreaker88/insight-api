@@ -24,7 +24,7 @@ describe('Currency', function() {
     }
   };
 
-  it.skip('will make live request to innova central', function(done) {
+  it.skip('will make live request to moneybyte central', function(done) {
     var currency = new CurrencyController({});
     var req = {};
     var res = {
